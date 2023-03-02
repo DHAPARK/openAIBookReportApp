@@ -199,10 +199,10 @@ export default function Home() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://easybookreport.swygbro.com" />
-        <meta property="og:image" content="/images/subImg1" />
+        <meta property="og:image" content="/images/subImg1.png" />
         <meta name="twitter:title" content="easybookreport_1분에 책한권" />
-        <link rel="apple-touch-icon" href="/images/subImg1" />
-        <link rel="shortcut icon" href="/images/subImg4" />
+        <link rel="apple-touch-icon" href="/images/subImg1.png" />
+        <link rel="shortcut icon" href="/images/subImg4.png" />
       </Head>
 
       <TopArea>
