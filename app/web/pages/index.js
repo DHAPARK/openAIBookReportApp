@@ -205,6 +205,22 @@ export default function Home() {
         <link rel="shortcut icon" href="/images/subImg4.png" />
       </Head>
 
+      <div style={{ textAlign: "center", border: "1px solid black" }}>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1919598055512436"
+          crossorigin="anonymous"
+        ></script>
+
+        <ins
+          class="adsbygoogle"
+          style={{ display: "inline-block", width: "300px", height: "250px" }}
+          data-ad-client="ca-pub-1919598055512436"
+          data-ad-slot="9210283486"
+        ></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({})</script>
+      </div>
+
       <TopArea>
         <InputBookTitle
           type="text"
