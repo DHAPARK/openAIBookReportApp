@@ -193,12 +193,12 @@ export default function Home() {
         ></Script>
 
         <ins
-          className="adsbygoogle"
+          class="adsbygoogle"
           style={{ display: "inline-block", width: "320px", height: "100px" }}
           data-ad-client="ca-pub-1919598055512436"
           data-ad-slot="2044520891"
         ></ins>
-        <Script>(adsbygoogle = window.adsbygoogle || []).push({})</Script>
+        <Script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
 
         <Head>
           <Script
