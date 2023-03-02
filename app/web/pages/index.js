@@ -161,7 +161,7 @@ export default function Home() {
           };
 
           axios
-            .post("http://localhost:4000/getReport", data, {
+            .post("https://back.jenfra.shop/api/openai/getReport", data, {
               headers: {
                 "Content-Type": `application/json`,
               },
@@ -194,7 +194,7 @@ export default function Home() {
           <MoreOptionOne>
             <OptionsInput
               type="text"
-              placeholder="장난꾸러기같은 개구쟁이 10대"
+              placeholder="개구쟁이 10대 소녀 또는 20대 청소년"
               value={inputOptionOneText}
               onChange={(e) => setInputOptionOneText(e.target.value)}
             />
@@ -208,7 +208,7 @@ export default function Home() {
           <MoreOptionTwo>
             <OptionsInput
               type="text"
-              placeholder="500 600 700 800 마음대로 !"
+              placeholder="500~3000 마음대로! (3000자 추천 !)"
               value={inputOptionTwoText}
               onChange={(e) =>
                 setInputOptionTwoText(e.target.value.replace(/[^0-9]/g, ""))
