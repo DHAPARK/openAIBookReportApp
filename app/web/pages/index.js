@@ -185,44 +185,45 @@ export default function Home() {
 
   return (
     <Container>
-      <Head>
-        <Script
-          defer
-          src="https://cdn.swygbro.com/public/widget/swyg-widget.js"
-        ></Script>
-        <title>하루 책한권!_easybookreport</title>
-        <meta name="theme-color" content="#E47B00" />
-        <meta name="description" content="AI가 뚝딱 요약해주는 책 한권 !" />
-        <meta name="keywords" content="독후감, ai, openai, chatgpt, 책" />
-        <meta property="og:site_name" content="easybookreport_1분에 책한권" />
-        <meta property="og:title" content="easybookreport_1분에 책한권" />
-        <meta
-          property="og:description"
-          content="AI가 뚝딱 요약해주는 책 한권 !"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://easybookreport.swygbro.com" />
-        <meta property="og:image" content="/images/subImg1.png" />
-        <meta name="twitter:title" content="easybookreport_1분에 책한권" />
-        <link rel="apple-touch-icon" href="/images/subImg1.png" />
-        <link rel="shortcut icon" href="/images/subImg4.png" />
-      </Head>
-
       <ADArea style={{ textAlign: "center", border: "1px solid black" }}>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1919598055512436"
           crossorigin="anonymous"
         ></Script>
-
-        <ADIns
-          className="adsbygoogle"
+        <ins
+          class="adsbygoogle"
           style={{ display: "inline-block", width: "300px", height: "250px" }}
           data-ad-client="ca-pub-1919598055512436"
           data-ad-slot="9210283486"
-        ></ADIns>
+        ></ins>
 
-        <Script>(adsbygoogle = window.adsbygoogle || []).push({})</Script>
+        <Script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
+        <Head>
+          <Script
+            defer
+            src="https://cdn.swygbro.com/public/widget/swyg-widget.js"
+          ></Script>
+          <title>하루 책한권!_easybookreport</title>
+          <meta name="theme-color" content="#E47B00" />
+          <meta name="description" content="AI가 뚝딱 요약해주는 책 한권 !" />
+          <meta name="keywords" content="독후감, ai, openai, chatgpt, 책" />
+          <meta property="og:site_name" content="easybookreport_1분에 책한권" />
+          <meta property="og:title" content="easybookreport_1분에 책한권" />
+          <meta
+            property="og:description"
+            content="AI가 뚝딱 요약해주는 책 한권 !"
+          />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:url"
+            content="https://easybookreport.swygbro.com"
+          />
+          <meta property="og:image" content="/images/subImg1.png" />
+          <meta name="twitter:title" content="easybookreport_1분에 책한권" />
+          <link rel="apple-touch-icon" href="/images/subImg1.png" />
+          <link rel="shortcut icon" href="/images/subImg4.png" />
+        </Head>
       </ADArea>
 
       <TopArea>
