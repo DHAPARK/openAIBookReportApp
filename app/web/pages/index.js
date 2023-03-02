@@ -47,6 +47,7 @@ const OptionAreas = styled.div`
   width: 100%;
   height: 30%;
   margin-top: 10px;
+  margin-bottom: 20px;
   border: 1px solid black;
   border-radius: 15px;
   display: flex;
@@ -107,6 +108,7 @@ const ResultArea = styled.textarea`
   font-size: 2vh;
   padding: 1.5%;
   font-weight: bold;
+  margin-top: 20px;
   color: black;
 `;
 
