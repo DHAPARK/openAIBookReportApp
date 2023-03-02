@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 import axios from "axios";
 import Head from "next/head";
 import { useState } from "react";
+import Script from "next/script";
 
 const Container = styled.div`
   border: none;
@@ -112,6 +113,8 @@ const ResultArea = styled.textarea`
   color: black;
 `;
 
+const ADArea = styled.div``;
+const ADIns = styled.ins``;
 export default function Home() {
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>;
   const [inputText, setInputText] = useState("");
@@ -183,10 +186,10 @@ export default function Home() {
   return (
     <Container>
       <Head>
-        <script
+        <Script
           defer
           src="https://cdn.swygbro.com/public/widget/swyg-widget.js"
-        ></script>
+        ></Script>
         <title>하루 책한권!_easybookreport</title>
         <meta name="theme-color" content="#E47B00" />
         <meta name="description" content="AI가 뚝딱 요약해주는 책 한권 !" />
@@ -205,21 +208,22 @@ export default function Home() {
         <link rel="shortcut icon" href="/images/subImg4.png" />
       </Head>
 
-      <div style={{ textAlign: "center", border: "1px solid black" }}>
-        <script
+      <ADArea style={{ textAlign: "center", border: "1px solid black" }}>
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1919598055512436"
           crossorigin="anonymous"
-        ></script>
+        ></Script>
 
-        <ins
-          class="adsbygoogle"
+        <ADIns
+          className="adsbygoogle"
           style={{ display: "inline-block", width: "300px", height: "250px" }}
           data-ad-client="ca-pub-1919598055512436"
           data-ad-slot="9210283486"
-        ></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({})</script>
-      </div>
+        ></ADIns>
+
+        <Script>(adsbygoogle = window.adsbygoogle || []).push({})</Script>
+      </ADArea>
 
       <TopArea>
         <InputBookTitle
