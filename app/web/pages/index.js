@@ -1,8 +1,8 @@
-import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import styled from "styled-components";
 import Swal from "sweetalert2";
 import axios from "axios";
+import Head from "next/head";
 import { useState } from "react";
 
 const Container = styled.div`
@@ -182,6 +182,29 @@ export default function Home() {
 
   return (
     <Container>
+      <Head>
+        <script
+          defer
+          src="https://cdn.swygbro.com/public/widget/swyg-widget.js"
+        ></script>
+        <title>하루 책한권!_easybookreport</title>
+        <meta name="theme-color" content="#E47B00" />
+        <meta name="description" content="AI가 뚝딱 요약해주는 책 한권 !" />
+        <meta name="keywords" content="독후감, ai, openai, chatgpt, 책" />
+        <meta property="og:site_name" content="easybookreport_1분에 책한권" />
+        <meta property="og:title" content="easybookreport_1분에 책한권" />
+        <meta
+          property="og:description"
+          content="AI가 뚝딱 요약해주는 책 한권 !"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://easybookreport.swygbro.com" />
+        <meta property="og:image" content="/images/subImg1" />
+        <meta name="twitter:title" content="easybookreport_1분에 책한권" />
+        <link rel="apple-touch-icon" href="/images/subImg1" />
+        <link rel="shortcut icon" href="/images/subImg4" />
+      </Head>
+
       <TopArea>
         <InputBookTitle
           type="text"
