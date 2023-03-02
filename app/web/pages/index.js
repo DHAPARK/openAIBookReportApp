@@ -185,20 +185,21 @@ export default function Home() {
 
   return (
     <Container>
-      <ADArea style={{ textAlign: "center", border: "1px solid black" }}>
+      <ADArea style={{ textAlign: "center" }}>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1919598055512436"
           crossorigin="anonymous"
         ></Script>
-        <ins
-          class="adsbygoogle"
-          style={{ display: "inline-block", width: "300px", height: "250px" }}
-          data-ad-client="ca-pub-1919598055512436"
-          data-ad-slot="9210283486"
-        ></ins>
 
-        <Script>{`(adsbygoogle = window.adsbygoogle || []).push({});`}</Script>
+        <ins
+          className="adsbygoogle"
+          style={{ display: "inline-block", width: "320px", height: "100px" }}
+          data-ad-client="ca-pub-1919598055512436"
+          data-ad-slot="2044520891"
+        ></ins>
+        <Script>(adsbygoogle = window.adsbygoogle || []).push({})</Script>
+
         <Head>
           <Script
             defer
